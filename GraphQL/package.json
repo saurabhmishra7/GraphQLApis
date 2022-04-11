@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "@types/express": "github:types/express",
+    "@types/mongoose": "^5.11.97",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn ./src/app.ts"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^9.7.1",
+    "@types/dotenv": "^8.2.0",
+    "@types/express-graphql": "^0.9.0",
+    "@types/graphql": "^14.5.0",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "class-validator": "^0.13.2",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongoose": "^6.2.10",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.18.0",
+    "sequelize-cli": "^6.4.1",
+    "type-graphql": "^1.1.1"
+  }
+}
